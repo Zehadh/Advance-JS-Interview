@@ -18,6 +18,10 @@ const result=number.map(function(x){
 })
 console.log(result);
 
-//3rd type
-const result=number.map(x=>x*x);
-console.log(result)
+//filter
+const result1=number.filter(x => x >3);
+console.log(result1);
+
+//find
+const result1=number.find(x => x >3);
+console.log(result1);
